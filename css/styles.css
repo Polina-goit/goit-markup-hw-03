@@ -1,4 +1,6 @@
-
+img {
+    display: block;
+}
 .header-border {
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
@@ -64,7 +66,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px;
+    padding: 24px 0;
     display: block;
 }
 .nav-link:hover {color: #404bbf;}
@@ -308,7 +310,7 @@ margin-top: 0;
 }
 .footer-page {
     background: #2e2f42;
-    padding: 100px;
+    padding: 100px 0;
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -319,6 +321,8 @@ margin-top: 0;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .accent-logo {
     font-weight: 700;
