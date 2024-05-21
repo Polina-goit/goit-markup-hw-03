@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 img {
     display: block;
 }
@@ -19,7 +28,6 @@ img {
         align-items: center;
         justify-content: flex-start;
         flex-direction: row;
-        gap: 40px;
 }
 
 .logo {
@@ -243,7 +251,6 @@ body {
     color: #2e2f42;
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-content {
